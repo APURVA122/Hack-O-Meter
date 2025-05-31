@@ -3,10 +3,12 @@ function showjuggad(){
     const inputText=document.getElementById("probleminput").value.toLowerCase();
      const tips = [
     "Use your phone flashlight + jug of water = instant lamp, desi jugaad level: expert!",
+     "Arey beta, restart kar ke dekh le ek baar.",
     "Restart it—90% of Indian tech problems solved with this trick.",
     "Fan not working? Use a newspaper as a hand fan – instant AC!",
     "No charger? Rub the charger pin and pray to Lord Charginganand.",
-    "Broken slippers? Use a safety pin – desi engineering at its best!"
+    "Broken slippers? Use a safety pin – desi engineering at its best!",
+   
   ];
   let answer = "";
   if (inputText.includes("power") || inputText.includes("night")) {
