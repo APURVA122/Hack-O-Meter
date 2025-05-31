@@ -2,7 +2,7 @@
 
 **LifeHack-O-Meter** is a fun, interactive web app that gives you hilarious, desi-style excuses to escape boring tasks — from coding struggles to exam prep blues. It's designed for students and coders who just need a little comic relief during their grind.
 
-🔗 **Live Demo:** [Click here to try it](https://apurva122.github.io/lifehack-o-meter/)  
+🔗 **Live Demo:** [Click here to try it](https://apurva122.github.io/Hack-O-Meter/)
 📈 **Analytics:** Integrated via Google Analytics (on deployment)
 
 ---
@@ -14,7 +14,7 @@
 - **JavaScript** – For dynamic logic and UI control  
 - **Web Speech API** – For voice-based output  
 - **GitHub Pages** – For deployment  
-- **Google Analytics** – For usage tracking
+
 
 ---
 
