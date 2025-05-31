@@ -28,15 +28,16 @@ function codejuggad(){
     //getting user input
     const code=document.getElementById("codeinput").value.toLowerCase();
   const excuse = [
-  "It worked on my machine, boss! 💻🤷‍♂️",
+  "Is bug ko toh maine 'Karma ka funda' samajh ke chhod diya hai. 🕉️🐞",
   "Actually, that bug is an undocumented feature. 🐛✨",
+  "Internet waalon ne aaj bhi chhutti le li hai, isliye slow hai. 📶😴",
   "Blame the compiler or the internet gods. 🧞‍♂️🖥️",
-  "It works perfectly on my machine — must be a hardware issue! 🧑‍🔧",
+  "It worked on my machine, par yeh toh mera bhai ka laptop hai! 🖥️😅",
   "Google bhi confuse hai, samjha nahi. 😵‍💫🔍",
   "Server ne bhi chhutti le li hai aaj. ☁️😴",
   "Code toh theek tha, system hi negative ho gaya. 📉😔",
-  "Yeh bug toh karma ka part hai. 🕉️🐞",
-  "Syntax error? Nah, it's just creative expression! 🎨💾",
+  "Code ki toh baat mat karo, vo toh mast hai, problem tumhare system mein hai! 🧑‍🔧",
+  "Syntax error? Nahi yaar, yeh toh creative art hai! 🎨💻",
   "Looks like the code needs a cutting chai break. 🍵💤",
   "Mera code emotions se chalta hai, not logic. ❤️🧠",
   "Bug nikal gaya ghar se, pata nahi kab wapas aayega. 🐞🚪"
