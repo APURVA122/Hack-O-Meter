@@ -40,11 +40,11 @@ No installation needed — just open the live site and start clicking for fun!
 git clone https://github.com/APURVA122/lifehack-o-meter.git
 cd lifehack-o-meter
 open index.html
+```
 ## 📄 License
-
-This project is licensed under the MIT License.  
+This project is licensed under the MIT License.
 Feel free to use, modify, or contribute!
-## ❤️ About Me
 
-Made with ❤️ by Apurva Jain  
-🔗 [LinkedIn](https://www.linkedin.com/in/apurva-jain-9462a7330/) • 🌐 [GitHub](https://github.com/APURVA122)
+## ❤️ About Me
+Made with ❤️ by Apurva Jain
+🔗 LinkedIn • 🌐 GitHub
