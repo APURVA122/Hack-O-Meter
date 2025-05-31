@@ -99,3 +99,93 @@ Get quirky startup ideas for fun or inspiration:
 
 “Uber for lost pens in classrooms—find your missing stationery fast!”
 
+
+
+
+function showjuggad() {
+  const tips = [
+    "Use your phone flashlight + jug of water = instant lamp, desi jugaad level: expert!",
+    "Restart it—90% of Indian tech problems solved with this trick."
+  ];
+
+  const input = document.getElementById("probleminput").value.toLowerCase();
+  let response = "Here's a desi jugaad for you!";
+
+  if (input.includes("power") || input.includes("night")) {
+    response = tips[0];
+  } else if (input.includes("slow") || input.includes("laptop")) {
+    response = tips[1];
+  } else {
+    response = tips[Math.floor(Math.random() * tips.length)];
+  }
+
+  document.getElementById("jugadanswer").innerText = response;
+}
+
+function codejuggad() {
+  const excuses = [
+    "It worked on my machine, boss!",
+    "Actually, that bug is an undocumented feature.",
+    "Blame the compiler or the internet gods.",
+    "It works perfectly on my machine — must be a hardware issue!",
+    "That bug? Nah, it’s a secret feature in disguise.",
+    "Google bhi confuse hai, samjha nahi.",
+    "Cache clear kar, sab theek ho jayega.",
+    "Server pe mood off tha aaj.",
+    "Lagta hai code ne chhutti le li.",
+    "Last minute changes ka asar hai.",
+    "Problem nahi, innovation hai bro!"
+  ];
+
+  // You could optionally use input here or just random excuse always
+  // const input = document.getElementById("codeinput").value.toLowerCase();
+
+  const randomExcuse = excuses[Math.floor(Math.random() * excuses.length)];
+  document.getElementById("codeanswer").innerText = randomExcuse;
+}
+
+function examjuggad() {
+  const input = document.getElementById("examinput").value.toLowerCase();
+  let tip = "Stay calm and study smart!";
+
+  if (input.includes("physics")) {
+    tip = "Watch a 2x speed YouTube crash course + pray hard!";
+  } else if (input.includes("viva")) {
+    tip = "Repeat whatever the professor just said, with confidence.";
+  } else if (input.includes("math")) {
+    tip = "Practice formulas and solve previous year questions.";
+  } else if (input.includes("last minute") || input.includes("study")) {
+    tip = "Focus on key points and get some rest before the exam.";
+  }
+
+  document.getElementById("examanswer").innerText = tip;
+}
+
+function foodjuggad() {
+  const mood = document.getElementById("foodinput").value.toLowerCase();
+  let food = "Try some chai and biscuits!";
+
+  if (mood.includes("sad")) {
+    food = "Garam chai + samosa, the ultimate comfort combo.";
+  } else if (mood.includes("excited")) {
+    food = "Pav bhaji with extra butter—celebrate properly!";
+  } else if (mood.includes("stressed")) {
+    food = "Maggi with a side of overthinking.";
+  } else if (mood.includes("lazy")) {
+    food = "Cold lassi and pakoras, perfect for a chill day.";
+  }
+
+  document.getElementById("foodanswer").innerText = food;
+}
+
+function startjuggad() {
+  const ideas = [
+    "Swiggy for Pandits—order pooja items on-demand.",
+    "AI matchmaker based on zodiac compatibility.",
+    "Uber for lost pens in classrooms—find your missing stationery fast!"
+  ];
+
+  const randomIdea = ideas[Math.floor(Math.random() * ideas.length)];
+  document.getElementById("startanswer").innerText = randomIdea;
+}
+
