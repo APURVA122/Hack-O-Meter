@@ -113,7 +113,7 @@ button:hover {
 }
 
 /* Responsive Design */
-@media(max-width: 600px) {
+
   @media(max-width: 600px) {
   .container {
     padding: 20px 16px;
@@ -127,10 +127,14 @@ button:hover {
     font-size: 1rem;
   }
 
-  input[type="text"] {
-    font-size: 1.1rem;
-    padding: 12px;
-  }
+ input[type="text"] {
+  font-size: 1.1rem;
+  padding: 14px 12px;   /* more vertical padding */
+  border-radius: 8px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
 
   button {
     width: 100%;
@@ -158,7 +162,7 @@ button:hover {
   }
 }
 
-}
+
 footer {
   text-align: center;
   padding: 15px 10px;
@@ -207,5 +211,11 @@ select:hover, select:focus {
 html, body {
   scroll-padding-bottom: 80px;
 }
+
+ section {
+  padding: 20px 24px;  /* previously: 20px only */
+}
+
+
 
 
