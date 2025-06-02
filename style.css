@@ -114,8 +114,9 @@ button:hover {
 
 /* Responsive Design */
 @media(max-width: 600px) {
+  @media(max-width: 600px) {
   .container {
-    padding: 20px;
+    padding: 20px 16px;
   }
 
   #Heading h1 {
@@ -125,6 +126,38 @@ button:hover {
   #Heading h3 {
     font-size: 1rem;
   }
+
+  input[type="text"] {
+    font-size: 1.1rem;
+    padding: 12px;
+  }
+
+  button {
+    width: 100%;
+    font-size: 1.05rem;
+    padding: 12px 0;
+    margin-top: 10px;
+  }
+
+  #jugadanswer,
+  #codeanswer,
+  #examanswer,
+  #foodanswer,
+  #startanswer {
+    font-size: 0.95rem;
+    padding: 12px;
+  }
+
+  section p {
+    font-size: 1rem;
+  }
+
+  select {
+    font-size: 1rem;
+    padding: 10px;
+  }
+}
+
 }
 footer {
   text-align: center;
@@ -170,4 +203,9 @@ select:hover, select:focus {
   border-color: #ff4d4d;
   outline: none;
 }
+
+html, body {
+  scroll-padding-bottom: 80px;
+}
+
 
